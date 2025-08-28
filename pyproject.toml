@@ -1,0 +1,10 @@
+[project]
+name = "simple-fastapi"
+version = "0.1.0"
+description = "Simple FastAPI app."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi[standard]>=0.116.1",
+    "psutil>=7.0.0",
+]
