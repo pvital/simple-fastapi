@@ -1,6 +1,7 @@
 import os
 from typing import Union
 
+import instana  # noqa: F401
 import psutil
 from fastapi import FastAPI, HTTPException
 
